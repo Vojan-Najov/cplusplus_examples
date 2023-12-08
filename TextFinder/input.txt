@@ -1,0 +1,12 @@
+Adding Resources to Project File
+
+For the text file to appear when you run the application, you must specify the resource file as a source file in the CMakeLists.txt file that the wizard created for you:
+
+set(PROJECT_SOURCES
+        main.cpp
+        textfinder.cpp
+        textfinder.h
+        textfinder.ui
+        ${TS_FILES}
+        textfinder.qrc
+)
