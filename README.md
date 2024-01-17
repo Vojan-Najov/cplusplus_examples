@@ -1,1 +1,1 @@
-# qt_examples
+# c++ examples
