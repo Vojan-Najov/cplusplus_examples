@@ -37,7 +37,7 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 class Solution {
  public:
-  vector<int> twoSum2(vector<int>& nums, int target) {
+  vector<int> twoSumSlow(vector<int>& nums, int target) {
     for (size_t i = 0; i < nums.size() - 1; ++i) {
       int n = target - nums[i];
       for (size_t j = i+1; j < nums.size(); ++j) {
